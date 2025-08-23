@@ -8,15 +8,15 @@
     "allowInbox": false,
     "autoClean": true,
     "commandDisabled": [
-        "sim.js"
+        ""
     ],
     "eventDisabled": [
-        "join.js"
+        ""
     ],
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "MIRAI-BOT-LOVER",
+    "BOTNAME": "KING_ABIR🤖মি্ঁমে্ঁর্ঁ জাঁমাঁই টাঁহ্ঁ🤖",
     "PREFIX": "/",
     "ADMINBOT": [
         "100071880593545"
