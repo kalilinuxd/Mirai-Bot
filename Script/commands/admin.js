@@ -11,33 +11,29 @@ module.exports.config = {
 module.exports.languages = {
   en: {
     message: `    THE BOT OPERATOR
-             🇧🇩🇦🇷🇦🇷🇦🇷➕️➕️➕🇦🇷🇦🇷🇦🇷
+             
 ╔══❀══◄░❀░►══❀══╗
- -NAME ➪ ༒ 𝐂𝐄𝐎-⸙ ABIR-❯⸙๏
+ -NAME ➪ محمد 
 
  -Gender ➪ Male 🍂💜
 
- -Age ➪ 18+ 🥀✨
+ -Age ➪ 17+ 🥀✨
 
  -Relationship ➪ Single
 
  -Work ➪ Student
 
- -Game ➪ Fire Lover 
+ -Game free fire
 
- -Facebook ➪ https://www.facebook.com/100071880593545
+ -Facebook ➪ 100068553998815
 
- -LC ➪ "Hey, I say I love you because I do" 🥱
+ -LC ➪ "Hey, I say I love you  THE 900 " 🥱
 
- -Page ➪ https://www.facebook.com/share/g/1EHHK6Rb7H/
+ -Page ➪ https://www.facebook.com/share/g/100068553998815
 
- -FIRE ➪ ️༒ 𝐂𝐄𝐎℅ABIR-❯⸙๏🥺🔫̷
+ 
 
- -WhatsApp + Imo ➪ No gf so not giving 🥱01704407109
-
- -Telegram ➪ +8801704407109 🥺🔥🥰
-
- -Mail ➪ Inbox me if needed
+ 
 
 ╚══❀══◄░❀░►══❀══╝`
   },
