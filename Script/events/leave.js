@@ -23,9 +23,9 @@ module.exports.run = async function ({ api, event, Users, Threads }) {
   const time = moment.tz("Asia/Dhaka").format("DD/MM/YYYY || HH:mm:ss");
   const hour = parseInt(moment.tz("Asia/Dhaka").format("HH"));
   const session =
-    hour < 10 ? "🌅 Morning" :
-    hour <= 12 ? "🌤️ Noon" :
-    hour <= 18 ? "🌇 Afternoon" :
+    hour < 10 ? "🌅 قصورو مع بورنوتو" :
+    hour <= 23 ? "🌤️ قصرو مع أعضاء و كلان" :
+    hour <= 00 ? "🌇 قصرو رومات" :
     "🌙 Evening";
 
   // Get group data and user info
@@ -42,9 +42,7 @@ module.exports.run = async function ({ api, event, Users, Threads }) {
       `📤 Status: ${type}\n` +
       `🕒 Time: ${time}\n` +
       `📆 Session: ${session}\n\n` +
-      `💌 We hope you'll always remember the good times here.\n` +
-      `🔕 Don't follow their path if they did wrong.\n\n` +
-      `🕌 Stay united in this Islamic group 💙`
+      `💌 جمي هبط تهود مباقيش ترجع؛`
     : threadData.customLeave;
 
   // Replace placeholders in customLeave message
