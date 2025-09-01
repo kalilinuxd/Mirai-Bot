@@ -33,8 +33,8 @@ module.exports.languages = {
 };
 
 const salamList = [
-  "assalamu alaikum", "Assalamu alaikum", "Assalamu Alaikum", "assalamualaikum",
-  "Assalamualaikum", "আসসালামু আলাইকুম", "ASSALAMUALAIKUM", "salam", "সালাম", "আসসালামু"
+  "assalamu alaikum", "Assalamu alaikum", "واش", "سلام عليكم ",
+  "Assalamualaikum", "আসসালামু আলাইকুম", "ASSALAMUALAIKUM", "سلام", "جمي", "আসসালামু"
 ];
 
 const imgLinks = [
@@ -72,7 +72,7 @@ module.exports.handleEvent = async ({ api, event, Threads, Users }) => {
 
   request(encodeURI(imgURL)).pipe(fs.createWriteStream(path)).on("close", () => {
     api.sendMessage({
-      body: `╭•┄┅═══❁🌺❁═══┅┄•╮\n ওয়ালাইকুম সালাম-!!🖤\n╰•┄┅═══❁🌺❁═══┅┄•╯\n\n✿🦋༎প্রি্ঁয়্ঁ গ্রুপ্ঁ মে্ঁম্ঁবা্ঁর্ঁ ${name}༎✨🧡\n⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆`,
+      body: `╭•┄┅═══❁🌺❁═══┅┄•╮\n وليكم سلام -!!🖤\n╰•┄┅═══❁🌺❁═══┅┄•╯\n\n✿🦋 واش اجمي ${name}༎✨🧡\n⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆`,
       attachment: fs.createReadStream(path)
     }, threadID, () => fs.unlinkSync(path), event.messageID);
   });
